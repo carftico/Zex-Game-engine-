@@ -1142,7 +1142,7 @@ void EditorHelp::_update_doc() {
 		_push_normal_font();
 		class_desc->push_color(theme_cache.text_color);
 
-		class_desc->append_text("[b]" + TTR("Note:") + "[/b] " + vformat(TTR("There are notable differences when using this API with C#. See [url=%s]C# API differences to GDScript[/url] for more information."), csharp_differences_url));
+		class_desc->append_text("[b]" + TTR("Note:") + "[/b] " + vformat(TTR("There are notable differences when using this API with C#. See [url=%s]C# API differences to ZX Script[/url] for more information."), csharp_differences_url));
 
 		class_desc->pop(); // color
 		_pop_normal_font();
@@ -2555,7 +2555,7 @@ static void _add_text_to_rt(const String &p_bbcode, RichTextLabel *p_rt, const C
 			break;
 		case 2: // GDScript and C#
 			bbcode = bbcode.replace("[csharp", "[b]C#:[/b]\n[codeblock lang=csharp"); // Tag can have extra arguments.
-			bbcode = bbcode.replace("[gdscript", "[b]GDScript:[/b]\n[codeblock lang=gdscript"); // Tag can have extra arguments.
+			bbcode = bbcode.replace("[gdscript", "[b]ZX Script:[/b]\n[codeblock lang=gdscript"); // Tag can have extra arguments.
 
 			bbcode = bbcode.replace("[/csharp]", "[/codeblock]");
 			bbcode = bbcode.replace("[/gdscript]", "[/codeblock]");
@@ -4649,7 +4649,7 @@ String EditorHelpBit::get_as_plain_text(const String &p_symbol, const String &p_
 			tag_stack.push_front("codeblock");
 		} else if (tag.begins_with("gdscript")) {
 			pos = brk_end + 1;
-			output.append("GDScript:\n");
+			output.append("ZX Script:\n");
 			tag_stack.push_front("gdscript");
 		} else if (tag.begins_with("csharp")) {
 			pos = brk_end + 1;
@@ -5193,7 +5193,7 @@ EditorHelpHighlighter::HighlightData EditorHelpHighlighter::_get_highlight_data(
 	switch (p_language) {
 		case LANGUAGE_GDSCRIPT:
 #ifndef MODULE_GDSCRIPT_ENABLED
-			ERR_FAIL_V_MSG(HighlightData(), "GDScript module is disabled.");
+			ERR_FAIL_V_MSG(HighlightData(), "ZX Script module is disabled.");
 #endif
 			break;
 		case LANGUAGE_CSHARP:
