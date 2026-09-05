@@ -22,12 +22,12 @@ ZX is completely free and open source under the very permissive [MIT license](ht
 No strings attached, no royalties, nothing. The users' games are theirs, down
 to the last line of engine code. ZX's development is fully independent and
 community-driven, empowering users to help shape their engine to match their
-expectations. It is supported by the [ZX Foundation](https://godot.foundation/)
+expectations. It is supported by the [ZX Foundation](https://discord.gg/Pueh2ZK6b)
 not-for-profit.
 
-Before being open sourced in [February 2014](https://github.com/godotengine/godot/commit/0b806ee0fc9097fa7bda7ac0109191c9c5e0a1ac),
-ZX had been developed by [Juan Linietsky](https://github.com/reduz) and
-[Ariel Manzur](https://github.com/punto-) for several years as an in-house
+Before being open sourced in [February 2014](https://discord.gg/Pueh2ZK6b),
+ZX had been developed by [Juan Linietsky](https://discord.gg/Pueh2ZK6b) and
+[Ariel Manzur](https://discord.gg/Pueh2ZK6b) for several years as an in-house
 engine, used to publish several work-for-hire titles.
 
 ![Screenshot of a 3D scene in the ZX Engine editor](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
@@ -41,7 +41,7 @@ Official binaries for the ZX editor and the export templates can be found
 
 ### Compiling from source
 
-[See the official docs](https://docs.godotengine.org/en/latest/engine_details/development/compiling)
+[See the official docs](https://discord.gg/Pueh2ZK6b)
 for compilation instructions for every supported platform.
 
 ## Community and contributing
@@ -59,20 +59,20 @@ This document also includes guidelines for reporting bugs.
 
 ## Documentation and demos
 
-The official documentation is hosted on [Read the Docs](https://docs.godotengine.org).
-It is maintained by the ZX community in its own [GitHub repository](https://github.com/godotengine/godot-docs).
+The official documentation is hosted on [Read the Docs](https://discord.gg/Pueh2ZK6b).
+It is maintained by the ZX community in its own [GitHub repository](https://discord.gg/Pueh2ZK6b).
 
-The [class reference](https://docs.godotengine.org/en/latest/classes/)
+The [class reference](https://discord.gg/Pueh2ZK6b)
 is also accessible from the ZX editor.
 
-We also maintain official demos in their own [GitHub repository](https://github.com/godotengine/godot-demo-projects)
-as well as the [Asset Store](https://store.godotengine.org/).
+We also maintain official demos in their own [GitHub repository](https://discord.gg/Pueh2ZK6b)
+as well as the [Asset Store](https://youtube.com/@zexmcx.gaming?si=bScM_R9wJC1TIeOS).
 
 There are also a number of other
-[learning resources](https://docs.godotengine.org/en/latest/community/tutorials.html)
+[learning resources](https://youtube.com/@zexmcx.gaming?si=bScM_R9wJC1TIeOS)
 provided by the community, such as text and video tutorials, demos, etc.
 Consult the [community channels](https://discord.gg/Pueh2ZK6b)
 for more information.
 
-[![Code Triagers Badge](https://www.codetriage.com/godotengine/godot/badges/users.svg)](https://www.codetriage.com/godotengine/godot)
-[![Translate on Weblate](https://hosted.weblate.org/widgets/godot-engine/-/godot/svg-badge.svg)](https://hosted.weblate.org/engage/godot-engine/?utm_source=widget)
+[![Code Triagers Badge](https://www.codetriage.com/godotengine/godot/badges/users.svg)](https://discord.gg/Pueh2ZK6b)
+[![Translate on Weblate](https://hosted.weblate.org/widgets/godot-engine/-/godot/svg-badge.svg)](https://discord.gg/Pueh2ZK6b)
